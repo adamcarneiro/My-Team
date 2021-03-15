@@ -27,9 +27,9 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#HTML #CSS3)
+  - [Built With](#)
 - [Features](#features)
-- [Contact](#https://twitter.com/adamastorsnipa)
+- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
