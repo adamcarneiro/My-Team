@@ -1,0 +1,457 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+}
+
+.logo{
+    position: absolute;
+    width: 300px;
+    height: 47px;
+    left: 243px;
+    top: 110px;
+
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+    color: #000000;
+}
+
+#paragraph{
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 736px;
+    top: 80px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.who-we-are{
+    position: absolute;
+    width: 390px;
+    height: 80px;
+    left: 736px;
+    top: 110px;
+
+    font-family: Poppins;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+
+#first-photo{
+
+    /* image 13 */
+    position: absolute;
+    /* width: 305.21px;
+    height: 471px; */
+    width: 254.36px;
+    height: 380px;
+    left: 258px;
+    top: 244.5px;
+
+    background: url(img/photo1.png) no-repeat;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+    background-size: 254.36px 380px;
+}
+
+#second-photo{
+    /* image 14 */
+    position: absolute;
+    /* width: 300.81px;
+    height: 399.96px; */
+
+    width: 254.36px;
+    height: 380px;
+
+    left: 614.64px;
+    top: 376px;
+
+    background: url(img/photo2.png) no-repeat;
+    /* background-size: 300.81px 399.96px; */
+    background-size: 254.36px 380px;
+}
+
+/* image 15 */
+
+#third-photo{
+
+    position: absolute;
+    /* width: 300.81px;
+    height: 399.96px; */
+
+    width: 254.36px;
+    height: 380px;
+
+    left: 983.54px;
+    top: 244.5px;
+
+    background: url(img/photo3.png) no-repeat;
+    /* background-size: 300.81px 399.96px; */
+    background-size: 254.36px 380px;
+}
+
+/* image 13 */
+
+#fourth-photo{
+
+    position: absolute;
+    /* width: 276.68px;
+    height: 469px; */
+
+    width: 254.36px;
+    height: 380px;
+
+    left: 258px;
+    top: 836px;
+
+    background: url(img/photo4.png) no-repeat;
+    /* background-size: 305.21px 471px; */
+    background-size: 254.36px 380px;
+}
+
+#fiveth-photo{
+
+    position: absolute;
+    width: 254.36px;
+    height: 380px;
+    left: 614.64px;
+    top: 974px;
+
+    background: url(img/photo5.png) no-repeat;
+    background-size: 254.36px 380px;
+}
+
+#sixeth-photo{
+    position: absolute;
+    /* width: 335.75px;
+    height: 449px; */
+
+    width: 254.36px;
+    height: 380px;
+
+    left: 983.54px;
+    top: 836px;
+
+    background: url(img/photo6.png) no-repeat;
+    /* background-size: 305.21px 471px; */
+
+    background-size: 254.36px 380px;
+}
+
+
+/* DEVELOPER BY*/
+
+#developer{
+
+    position: absolute;
+    width: 377px;
+    height: 17px;
+    left: 547px;
+    top: 1448px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+
+}
+
+.function{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    transform: rotate(90deg);
+}
+
+#firstone{
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    left: 220px;
+    top: 45px;
+}
+
+.name{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#name-first{
+    position: absolute;
+    width: 137px;
+    height: 27px;
+    top: 389px;
+}
+
+/*Responsivite*/
+
+@media(max-width:500px){
+
+
+    .logo{
+        position: absolute;
+        width: 12rem;
+        height: 47px;
+        left: 30px;
+        top: 30px;
+    
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.3rem;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+    
+        color: #000000;
+    }
+
+    #paragraph{
+        position: absolute;
+        width: 10rem;
+        height: 27px;
+        left: 30px;
+        top: 100px;
+    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.8rem;
+        line-height: 27px;
+        /* identical to box height */
+    
+        text-transform: uppercase;
+    
+        color: #000000;
+    
+    }
+
+    
+.who-we-are{
+    position: absolute;
+    width: 19rem;
+    height: 80px;
+    left: 30px;
+    top: 140px;
+
+    font-family: Poppins;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 1.0rem;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#first-photo{
+
+    /* image 13 */
+    position: absolute;
+   
+    width: 6rem;
+    height: 9rem;
+    left: 30px;
+    top: 254.5px;
+
+    background: url(img/photo1.png) no-repeat;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+    background-size: 6rem 9rem;
+}
+
+#second-photo{
+    /* image 14 */
+    position: absolute;
+    /* width: 300.81px;
+    height: 399.96px; */
+
+    width: 6rem;
+    height: 9rem;
+
+    left: 170px;
+    top: 296px;
+
+    background: url(img/photo2.png) no-repeat;
+    /* background-size: 300.81px 399.96px; */
+    background-size: 6rem 9rem;
+}
+
+#third-photo{
+
+    position: absolute;
+    /* width: 300.81px;
+    height: 399.96px; */
+
+    width: 6rem;
+    height: 9rem;
+
+    left: 30px;
+    top: 479.5px;
+
+    background: url(img/photo3.png) no-repeat;
+    /* background-size: 300.81px 399.96px; */
+    background-size: 6rem 9rem;
+}
+
+#fourth-photo{
+
+    position: absolute;
+    /* width: 276.68px;
+    height: 469px; */
+
+    width: 6rem;
+    height: 9rem;
+
+    left: 170px;
+    top: 536px;
+
+    background: url(img/photo4.png) no-repeat;
+    /* background-size: 305.21px 471px; */
+    background-size: 6rem 9rem;
+}
+
+#fiveth-photo{
+
+    position: absolute;
+    width: 6rem;
+    height: 9rem;
+    left: 30px;
+    top: 718px;
+
+    background: url(img/photo5.png) no-repeat;
+    background-size: 6rem 9rem;
+}
+
+#sixeth-photo{
+    position: absolute;
+    /* width: 335.75px;
+    height: 449px; */
+
+    width: 6rem;
+    height: 9rem;
+
+    left: 170px;
+    /* left: 35%; */
+    top: 766px;
+    /* top: 124%; */
+
+    background: url(img/photo6.png) no-repeat;
+    /* background-size: 305.21px 471px; */
+
+    background-size: 6rem 9rem;
+}
+
+.function{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.45rem;
+    line-height: 1.6rem;
+
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    transform: rotate(90deg);
+    background-color: rgb(255, 255, 255);
+}
+
+#firstone{
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 75px;
+    top: 27px;
+    /* padding: 3px; */
+}
+
+.name{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#name-first{
+    position: absolute;
+    width: 6.1rem;
+    height: 27px;
+    top: 145px;
+}
+
+#developer{
+
+    position: absolute;
+    width: 227px;
+    height: 17px;
+    /* left: 147px;
+    top: 148px; */
+
+    left: 36px;
+    /* left: 35%; */
+    top: 946px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 14px; */
+    font-size: 0.5rem;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+
+}
+
+}
